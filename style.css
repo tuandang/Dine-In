@@ -1,0 +1,87 @@
+/* font for all pages */
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #faf3bc;
+	background: #420600 url('img/bg-texture.jpg') repeat; /* this is the main one
+	                                                         repeat this image in background */
+
+}
+
+a {
+	color: #4fb69f;
+	text-decoration: none; /* no underline for links */
+}
+
+#head {
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px; /* letters closer */
+	text-align: center;
+}
+
+#signin
+{
+	margin-left: 200px;
+}
+
+#tableId
+{
+	margin-left: 200px;
+}
+
+
+
+/* button */
+.btn {
+	padding: 15px 30px; /* makes element bigger */ /* top & bottom :: left & right */
+	margin: 40px 40px; /* space around the element */
+	color: #faf3bc;
+	background: #4fb69f url('img/texture.png') no-repeat right top; /* background from top and right */
+	border-radius: 25px; /* round corners around box */
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	text-transform: uppercase;
+
+
+}
+
+
+
+
+/* you you click on the button */
+.btn:hover {
+	background-color: #4cc4a7;
+}
+
+
+
+
+
+
+
+
+/* move intro down to align with image */
+#intro {
+	margin: 20px 0 75px 0;
+}
+
+
+
+#contact span{
+	color: #b22316;
+	font-weight: 600;
+}
+
+#programming
+{
+	border-color: 10px solid black;
+	margin: 20px 0px;
+
+}
+
+#copyright {
+	border-top: 5px solid #2a0400; /* top of border */
+	padding: 10px 0;
+	margin: 15px 0;
+	text-align: center; /* move text inside of an element */
+}
